@@ -1,26 +1,23 @@
-let heroi = " Reyna "
-let QntdDeExp = 9000
+let heroi = ( " Reyna " )
+let QntdDeExp = 10000
+  switch(QntdDeExp ){
 
-if(QntdDeExp < 1000){
+   case 1000 :
+   console.log(heroi + "Voce esta no rank ferro")
+   break
 
-   console.log (heroi + "esta no Rank de Ferro " )
-} 
+    case 2000 :
+      console.log(heroi + "voce esta no rank Ouro")
+      break
+      case 5000:
+         console.log( heroi + "Voce é Ascendente")
+      break
 
-   else if (QntdDeExp <= 2001){
-  
-  console.log(heroi + "esta no Rank  de Prata ") 
-  
-  }  else if (QntdDeExp <= 5001) 
-  
-      console.log(heroi + "esta no Rank  de Ouro " )
-      
-     else if(QntdDeExp >= 9000) {
-     
-     
-     console.log(heroi + "esta no Rank  de Diamante ")
-      } 
-      
-      else {
-       console.log( heroi + "esta no Rank  de Imortal") 
-       } 
+      case 9000:
+         console.log(heroi + "Você é Diamante ")
+         break
+
+         default :
+         console.log( heroi + "Voce esta no Rank Imortal")
+ }   
       
