@@ -10,11 +10,11 @@ let QntdDeExp = 10000
       console.log(heroi + "voce esta no rank Ouro")
       break
       case 5000:
-         console.log( heroi + "Voce é Ascendente")
+         console.log( heroi + "Voce Esta no rank  Ascendente")
       break
 
       case 9000:
-         console.log(heroi + "Você é Diamante ")
+         console.log(heroi + "Você Esta no rank Diamante ")
          break
 
          default :
